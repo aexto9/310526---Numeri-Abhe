@@ -1575,6 +1575,7 @@ self.C3_ExpressionFuncs = [
 		() => "Level_1",
 		() => "SaveDataReward",
 		() => "Lay_Lvl2_PA",
+		() => 1.8,
 		() => "Lay_Lvl2_PA2",
 		() => 11,
 		() => "Level_2",
@@ -1627,7 +1628,6 @@ self.C3_ExpressionFuncs = [
 		() => "Lay_Lvl9_PA-1",
 		() => "Level_9",
 		() => "Lay_Lvl10_PA",
-		() => 1.7,
 		() => "Lay_Lvl10_PA-Play",
 		() => "Lay_Lvl10_PA-1",
 		() => "Level_10",
@@ -1667,6 +1667,7 @@ self.C3_ExpressionFuncs = [
 		() => "Lay_Lvl13_PA-6",
 		() => "Level_13",
 		() => "Lay_Lvl14_PA",
+		() => 1.7,
 		() => "Lay_Lvl14_PA-1",
 		() => "Lay_Lvl14_PA-5",
 		() => "Level_14",
@@ -1699,7 +1700,6 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => and("Level_", n0.ExpInstVar());
 		},
-		() => "Lay_RoadMap_Pengenalan_Angka",
 		() => "MainTheme",
 		() => "basic 1-1",
 		() => "Common Config",
@@ -1771,7 +1771,9 @@ self.C3_ExpressionFuncs = [
 		() => 560.077607,
 		() => 641.156986,
 		() => 399.514906,
-		() => "Pause Game"
+		() => "Pause Game",
+		() => 5.7,
+		() => -2
 ];
 
 
